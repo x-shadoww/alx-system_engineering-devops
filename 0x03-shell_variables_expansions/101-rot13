@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -lne 'print if $. % 2 == 1'
+tr 'a-zA-Z' 'n-za-mN-ZA-M'
